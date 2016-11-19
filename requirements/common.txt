@@ -10,10 +10,14 @@ Flask-Script==2.0.5
 Flask-WTF==0.13.1
 Jinja2==2.8
 Mako==0.9.1
-MarkupSafe==0.18
+Markdown==2.6.7
+MarkupSafe==0.23
 SQLAlchemy==1.1.2
 WTForms==1.0.5
 Werkzeug==0.10.4
 alembic==0.6.2
-blinker==1.3
+bleach==1.5.0
+blinker==1.4
+html5lib==1.0b10
 itsdangerous==0.23
+six==1.10.0
