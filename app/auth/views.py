@@ -95,8 +95,8 @@ def change_password():
             db.session.add(current_user)
             flash('Your password has been updated.')
             return redirect(url_for('main.index'))
-    else:
-        flash('Invalid password.')
+        else:
+            flash('Invalid password.')
     return render_template('auth/change_password.html', form=form)
 
 
@@ -151,7 +151,7 @@ def change_email_request():
                   'address has been sent to you.')
             return redirect(url_for('main.index'))
         else:
-            flash('Invalid email or password')
+            flash('Invalid email or password.')
     return render_template('auth/change_email.html', form=form)
 
 
